@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient( to top, #216af2 -30%, #4c72e5, #b541c0, #c033bb) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 350px; /* Define a largura do container */
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.lembrar {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+}
+
+.lembrar input[type="checkbox"] {
+    margin-right: 5px;
+    
+}
+
+button[type="submit"] {
+    background-color: #f50057;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Define a largura do botão */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do botão */
+}
+
+button[type="submit"]:hover {
+    background-color: #b90041;
+}
+
+.ou-entre {
+    margin-top: 10px; /* Adiciona espaçamento acima do texto */
+    font-size: 14px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between; /* Alinha os botões de forma espaçada */
+    margin-top: 10px;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 48%; /* Define a largura dos botões */
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.google {
+    background-color: #dd4b39;
+}
+
+.social-button:hover {
+    opacity: 0.8;
+}
+
+p {
+    margin-top: 20px; /* Adiciona espaçamento acima do texto */
+    font-size: 14px;
+}
+
+p a {
+    color: #000000;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
