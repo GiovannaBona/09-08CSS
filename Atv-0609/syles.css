@@ -1,0 +1,186 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 235, 235);
+}
+
+.titulo {
+    margin-top: 0%;
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+.teste {
+    width: 75%;
+
+}
+
+.teste2 {
+    background-color: #aaa;
+    height: 150px;
+    
+
+}
+
+.teste3 {
+    background-color: #aaa;
+    height: 75px;
+}
+
+.teste4 {
+    background-color: #aaa;
+    height: 100px;
+    
+}
+
+.divsec {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section.post {
+
+
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+aside {
+    width: 25%;
+    padding: 20px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #aaa;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 10px;
+        color: white;
+    }
+
+    nav a {
+        text-decoration: none;
+        ;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    section {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #333;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    /* Media Query for Screens Smaller than 800px */
+    @media screen and (max-width: 800px) {
+        nav li {
+            display: block;
+            margin: 5px 0;
+        }
+
+        section {
+            width: 100%;
+        }
+    }
+}
